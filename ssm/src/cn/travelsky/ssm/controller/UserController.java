@@ -11,7 +11,7 @@ import cn.travelsky.ssm.service.UserService;
 public class UserController {
 	@Autowired
 	private UserService userService;
-	@RequestMapping("insert.action")
+	@RequestMapping("insert")
 	public String insert(pojo pojo) {
 		userService.insert(pojo);
 		return "success";
