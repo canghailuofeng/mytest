@@ -14,6 +14,7 @@ public class UserController {
 	@RequestMapping("insert")
 	public String insert(pojo pojo) {
 		userService.insert(pojo);
+		System.out.println("hello");
 		return "success";
 	}
 }
