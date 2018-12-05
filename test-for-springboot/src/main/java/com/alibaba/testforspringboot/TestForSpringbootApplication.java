@@ -6,5 +6,6 @@ public class TestForSpringbootApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TestForSpringbootApplication.class, args);
 		//nimen
+		System.out.println("syso分支提交");
 	}
 }
