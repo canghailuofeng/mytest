@@ -5,5 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TestForSpringbootApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TestForSpringbootApplication.class, args);
+		//nimen
 	}
 }
